@@ -1,0 +1,119 @@
+body main h1{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+body header {
+    text-align: right;
+    background-color: thistle;
+}
+
+body header ul {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    padding: 25px;
+}
+
+body header ul li {
+    display: inline-block;
+}
+
+body header ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+body header ul li a:hover {
+    color: teal;
+}
+
+#index {
+    color: white;
+    font-size: 20px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background: url("https://source.unsplash.com/daily?space") no-repeat fixed center center/cover;
+}
+
+#boxes {
+    background-image: url(https://source.unsplash.com/weekly?forest);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#contact {
+    color: white;
+    font-size: 20px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background-image: url(https://source.unsplash.com/daily?techno);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* table */
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #333;
+}
+
+th,
+tr {
+    font-size: 15px;
+    width: 300px;
+    padding: 10px;
+}
+
+tr{
+    border-bottom: 1px solid white;
+}
+
+/* boxes */
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5 {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin: 20px;
+}
+
+#box1 {
+    border: 10px double #fff;
+    padding: 5px 35px;
+}
+
+#box2 {
+    border: 10px dotted #fff;
+}
+
+#box3 {
+    border-width: 10px;
+    border-style: solid;
+    border-color: brown white yellow green;
+}
+
+#box4 {
+    border: 10px groove #fff;
+    border-radius: 10px;
+}
+
+#box5 {
+    border: 1px dashed #fff;
+    border-radius: 50%;
+}
+
