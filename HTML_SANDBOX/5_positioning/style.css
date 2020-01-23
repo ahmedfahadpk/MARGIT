@@ -1,0 +1,28 @@
+body {
+    font-family: 'Bangers', cursive;
+}
+
+body header h1 {
+    text-align: left;
+    padding: 0px 25px 0px 25px;
+}
+
+body header nav {
+    text-align: right;
+    list-style-type: none;
+}
+
+body header nav ul li {
+    display: inline-block;
+    padding: 0px 25px 0px 25px;
+}
+
+body header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+body header nav ul li a:hover {
+    color: teal;
+}
