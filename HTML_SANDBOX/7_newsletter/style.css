@@ -23,6 +23,7 @@ a {
     background-color: teal;
     padding: 50px;
     border-radius: 5px;
+    text-align: center;
 }
 
 .form-wrap h1,
@@ -68,4 +69,12 @@ a {
 
 footer p{
     margin: 20px;
+}
+
+.form-wrap .bottom-text {
+    font-size: 12px;
+}
+
+.form-wrap .bottom-text a:hover {
+    text-decoration: underline;
 }
