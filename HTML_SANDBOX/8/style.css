@@ -1,0 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body header nav {
+    text-align: center;
+    list-style-type: none;
+}
+
+body header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+    text-align: center;
+    display: inline-block;
+}
