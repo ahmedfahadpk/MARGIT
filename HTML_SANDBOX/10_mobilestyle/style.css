@@ -1,0 +1,8 @@
+body {
+    background: teal;
+}
+@media screen and (min-width: 320px) {
+    body {
+        background: green;
+    }
+}
